@@ -76,8 +76,11 @@ LOG_LOW, LOG_MEDIUM, LOG_HIGH, LOG_ERROR
 Przykład:
 użycie makr:
 LOG_HIGH(”jakis wpis 1”);
+
 LOG_ERROR(”jakis wpis 2”);
 
 spowoduje wygenerowanie takich logów:
+
 Oct 3 2016 | 12:01:31 | 009_logger.c:57 | HIGH | jakis wpis 1
+
 Oct 3 2016 | 12:01:31 | 009_logger.c:58 | ERROR| jakis wpis 1
