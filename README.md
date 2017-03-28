@@ -60,3 +60,24 @@ result:       Jest naszym wynikiem
 
 3. Napisz funkcję strToFloat, zamieniającją łańcuch znakowy na wartość zmiennoprzecinkowa. Niech ta funkcja uwzględnia także liczbę ujemną.
     strToFloat(char*)
+
+_____________________________________________________________________________
+Module_5 - System do logowania
+Napisz program, który będzie działał jak loger – zapisywał informacje o stanie programu do pliku. Log ma mieć następującą składnię:
+<data> | <czas> | <nazwa_pliku>:<numer_lini> | MEDIUM,LOW,HIGH,ERROR} | <text>
+
+1.Do logowania mają być dostępne następujące makra:
+LOG_LOW, LOG_MEDIUM, LOG_HIGH, LOG_ERROR
+
+2. Wywołanie makr ma zastępować wywołanie funkcji do logowania, która:
+-zapisuje log do lokalnego buforu o rozmiarze BUFFER_LEN
+-zapis do pliku następuje kiedy nie ma już miejsca do zapisu w lokalnym buforze
+
+Przykład:
+użycie makr:
+LOG_HIGH(”jakis wpis 1”);
+LOG_ERROR(”jakis wpis 2”);
+
+spowoduje wygenerowanie takich logów:
+Oct 3 2016 | 12:01:31 | 009_logger.c:57 | HIGH | jakis wpis 1
+Oct 3 2016 | 12:01:31 | 009_logger.c:58 | ERROR| jakis wpis 1
