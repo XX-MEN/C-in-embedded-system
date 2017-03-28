@@ -75,6 +75,7 @@ LOG_LOW, LOG_MEDIUM, LOG_HIGH, LOG_ERROR
 
 Przykład:
 użycie makr:
+
 LOG_HIGH(”jakis wpis 1”);
 
 LOG_ERROR(”jakis wpis 2”);
