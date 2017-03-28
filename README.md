@@ -1,5 +1,6 @@
 # C-in-embedded-system
 
+_____________________________________________________________________________
 Modul_1. Ćwiczenie przekrojowe utrwalające składnię języka C.
 1. Utwórz strukturę Samochód zawierającą następujące pola:
 waga - typ całkowity
@@ -19,6 +20,7 @@ wyposazenie - dowolna wartość tego typu wyliczeniowego
 <nazwa_pliku>.c - definicje funkcji
 <nazwa_pliku_main>.c – definicja tablicy struktur, jej inicjalizacja, oraz sortowanie po zadanym kryterium 
 
+_____________________________________________________________________________
 Moduł_2. Bit operations
 Calculator for numeric system based on the number 4 (Base4).
 Write two programs as a homework. 
@@ -34,6 +36,7 @@ Write two programs as a homework.
     TIPP: Use bitfield declaration with width of 2 bits. 
           Check before arithmetic operations for overflows.
 
+_____________________________________________________________________________
 Module 3 - Pointer
 1. Program: Napisz funkcję 'sort3' sortujaca rosnaco trzy liczby całkowite (funkcje zaimplementuj bez użycia tablic!)
 
@@ -43,6 +46,7 @@ Module 3 - Pointer
 Funkcja ma wynik w formie prawdy(1) i fałsz(0).
 Funkcja ma używac tylko wskaźników! 
 
+_____________________________________________________________________________
 Module_4 - Strings
 1. Napisz funkcję intToStr zamieniajacją liczbę całkowitą na łańcuch znakowy. Pamiętaj o prawidłowej obsłudze liczb ujemnych. Używaj dynamiczną allokację i wskaźniki
     intToStr(int, char*)
