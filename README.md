@@ -42,3 +42,17 @@ Module 3 - Pointer
 3 Program: Napisz funkcję compareStrings() która porównuje dwie tablice z charami na równość.
 Funkcja ma wynik w formie prawdy(1) i fałsz(0).
 Funkcja ma używac tylko wskaźników! 
+
+Module_4 - Strings
+1. Napisz funkcję intToStr zamieniajacją liczbę całkowitą na łańcuch znakowy. Pamiętaj o prawidłowej obsłudze liczb ujemnych. Używaj dynamiczną allokację i wskaźniki
+    intToStr(int, char*)
+
+2. Napisz funkcję substring pobierającą część łańcucha. Funkcja ma być wywołana następująco:
+    substring(source, beginning, number, result)
+source:     Źródło z kat pobieramy
+beginning: Od którego elementu zaczynamy(indeks)
+number:    Ilość pobieranych znaków
+result:       Jest naszym wynikiem
+
+3. Napisz funkcję strToFloat, zamieniającją łańcuch znakowy na wartość zmiennoprzecinkowa. Niech ta funkcja uwzględnia także liczbę ujemną.
+    strToFloat(char*)
