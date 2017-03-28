@@ -1,6 +1,6 @@
 # C-in-embedded-system
 
-Zadanie1. Ćwiczenie przekrojowe utrwalające składnię języka C.
+Modul_1. Ćwiczenie przekrojowe utrwalające składnię języka C.
 1. Utwórz strukturę Samochód zawierającą następujące pola:
 waga - typ całkowity
 cena - typ całkowity
