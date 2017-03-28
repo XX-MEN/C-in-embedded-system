@@ -33,3 +33,12 @@ Write two programs as a homework.
     - Max Input is two digits long.(Output can be higher)
     TIPP: Use bitfield declaration with width of 2 bits. 
           Check before arithmetic operations for overflows.
+
+Module 3 - Pointer
+1. Program: Napisz funkcję 'sort3' sortujaca rosnaco trzy liczby całkowite (funkcje zaimplementuj bez użycia tablic!)
+
+2. Program: Lista podwójnego powiazana to lista, której elemty zawieraja waśkażniki do poprzedniego i następnego elementu listy. Zdefiniuj strukturę opisujca listę podwójnie powiazana i napisz nie wielki program realizujacy taka listę, a także pokazujacy jej elemety.
+Podpowiedz: Podobno ja program pointerStructList.c
+
+3 Program: Napisz funkcję compareStrings() która porównywa dwa tablice z charami na równość. Funkcja ma wynik w formie prawdy(1) i fałsz(0).
+Funkcja ma używac tylko wskaźniki! 
