@@ -1,4 +1,4 @@
-Skladnia dla gcc
+Skladnia kompilacji dla gcc
 
 gcc -c Modul_1.c
 gcc -c Modul_1_main.c
